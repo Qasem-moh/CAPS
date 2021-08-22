@@ -1,7 +1,5 @@
 'use strict';
 
-require('dotenv').config()
-
 const events = require('../events')
 require('./driver')
 require('./vendor')
