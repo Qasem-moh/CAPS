@@ -21,7 +21,7 @@ events.on('pickup', payload => {
 })
 //transit
 events.on('transit', payload => {
-    console.log('event:', {
+    console.log('EVENT:', {
         event: 'transit',
         time: `${year}-${month}-${day} T ${time}`,
         payload: payload
