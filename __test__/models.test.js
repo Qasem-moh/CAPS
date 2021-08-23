@@ -23,15 +23,16 @@ describe('caps test', () => {
 
   it('transit', () => {
     const caps = require('../models/caps');
-    caps.emit('transit', payload);
-    expect(caps.emit('transit', payload)).toEqual(true);
+    caps.emit('dileverd', payload);
+    expect(caps.emit('dileverd', payload)).toEqual(true);
   });
 
   it('transit', () => {
     const caps = require('../models/caps');
-    caps.emit('dileverd', payload);
-    expect(caps.emit('dileverd', payload)).toEqual(true);
+    caps.emit('transit', payload);
+    expect(caps.emit('transit', payload)).toEqual(true);
   });
+
 
 });
 
